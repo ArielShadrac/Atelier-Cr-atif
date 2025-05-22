@@ -1,0 +1,94 @@
+{% extends 'base/navbar.html' %}
+{% load static %}
+
+{% block content %}
+<style>
+    .team-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+  </style>
+<section class="pt-4">
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <figure><img src="./assets/img/photo-1558118720-fa5cdebe6b3a.jpg" alt="" class="img-fluid">
+                </figure>
+            </div>
+            <!-- end:col -->
+            <div class="col-md-6 pl-lg-5 pl-md-5">
+                <h2>
+                    Qui sommes-nous ?
+                </h2>
+                <p class="lead mt-4">Bienvenue dans notre atelier artisanal, où passion et créativité s'entremêlent pour donner vie à des pièces uniques. Depuis plusieurs années, nous nous consacrons à l'artisanat avec un objectif clair : allier savoir-faire traditionnel et designs modernes pour des créations authentiques.</p>
+                
+                <hr class="mt-5">
+                <h2>
+                    Notre mission
+                </h2>
+                <p class="lead mt-4">BNous croyons fermement que l'artisanat est plus qu'un métier, c'est une histoire à raconter. Notre mission est de créer des produits qui reflètent notre amour pour les matériaux naturels, tout en respectant les valeurs de durabilité et d'authenticité.</p>
+                <hr class="mt-5">
+                <h2>
+                    Nos valeurs
+                </h2>
+                <p class="lead mt-4">
+                    <ul>
+                        <li><b>Authenticité :</b> Chaque création raconte une histoire unique.</li>
+                        <li><b>Qualité :</b> Nous utilisons uniquement des matériaux sélectionnés avec soin.</li>
+                        <li><b>Durabilité :</b>  Nous nous engageons à minimiser notre impact sur l'environnement.</li>
+                    </ul>
+                    <hr class="mt-5">
+
+            </div>
+            <!-- end:col -->
+        </div>
+        <hr class="mt-5">
+        <div class="container py-5">
+            <h2 class="text-center mb-5">Notre Équipe</h2>
+        
+            <div class="row g-4 justify-content-center">
+        
+              <!-- Nadiatou -->
+              <div class="col-md-4">
+                <div class=" h-100 rounded-2">
+                  <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Nadiatou" class="card-img-top team-photo rounded-2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Nadiatou OUEDRAOGO</h5>
+                    <p class="card-text text-muted">Fondatrice</p>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Sakinatou -->
+              <div class="col-md-4">
+                <div class=" h-100 rounded-2">
+                  <img  src="https://randomuser.me/api/portraits/women/75.jpg" alt="Sakinatou" class="card-img-top team-photo rounded-2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Sakinatou BARA</h5>
+                    <p class="card-text text-muted">Designer</p>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Jeanne -->
+              <div class="col-md-4">
+                <div class=" h-100 rounded-2">
+                  <img src="https://randomuser.me/api/portraits/women/85.jpg" alt="Jeanne" class="card-img-top team-photo rounded-2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Jeanne OUEDRAOGO</h5>
+                    <p class="card-text text-muted">Responsable des relations clients</p>
+                  </div>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+    </div>
+</section>
+
+{% endblock %}
+
+

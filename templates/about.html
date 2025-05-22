@@ -10,12 +10,19 @@
       border-radius: 50%;
       margin-bottom: 15px;
     }
+
+    .card-img-top{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
   </style>
 <section class="pt-4">
     <div class="container">
         <div class="row d-flex align-items-center">
             <div class="col-md-6">
-                <figure><img src="./assets/img/photo-1558118720-fa5cdebe6b3a.jpg" alt="" class="img-fluid">
+                <figure><img src="{%static 'assets/img/6282340.jpg'%}" alt="" class="img-fluid" style="obfject-fit: cover !important; height: 100%;">
                 </figure>
             </div>
             <!-- end:col -->
@@ -54,7 +61,7 @@
               <!-- Nadiatou -->
               <div class="col-md-4">
                 <div class=" h-100 rounded-2">
-                  <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Nadiatou" class="card-img-top team-photo rounded-2">
+                  <img src="{% static 'assets/img/Nadia.jpg' %}" alt="Nadiatou" class="card-img-top team-photo rounded-2">
                   <div class="card-body text-center">
                     <h5 class="card-title">Nadiatou OUEDRAOGO</h5>
                     <p class="card-text text-muted">Fondatrice</p>
@@ -65,7 +72,7 @@
               <!-- Sakinatou -->
               <div class="col-md-4">
                 <div class=" h-100 rounded-2">
-                  <img  src="https://randomuser.me/api/portraits/women/75.jpg" alt="Sakinatou" class="card-img-top team-photo rounded-2">
+                  <img  src="{% static 'assets/img/sakina.jpg' %}" alt="Sakinatou" class="card-img-top team-photo rounded-2">
                   <div class="card-body text-center">
                     <h5 class="card-title">Sakinatou BARA</h5>
                     <p class="card-text text-muted">Designer</p>
@@ -76,7 +83,7 @@
               <!-- Jeanne -->
               <div class="col-md-4">
                 <div class=" h-100 rounded-2">
-                  <img src="https://randomuser.me/api/portraits/women/85.jpg" alt="Jeanne" class="card-img-top team-photo rounded-2">
+                  <img src="{% static 'assets/img/jeanne.jpg' %} " alt="Jeanne" class="card-img-top team-photo rounded-2">
                   <div class="card-body text-center">
                     <h5 class="card-title">Jeanne OUEDRAOGO</h5>
                     <p class="card-text text-muted">Responsable des relations clients</p>

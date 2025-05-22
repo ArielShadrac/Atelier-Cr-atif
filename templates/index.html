@@ -23,9 +23,11 @@
                 <div class="entry work-entry branding">
                     <a href="#"></a>
                         <div class="entry-image imageBG" data-img="{{ img.image.url }}"></div>
+                        <img src="{{ img.image.url }}" alt="{{ img.title }}" class="entry-image imageBG"  style="object-fit: cover !important;">
+
                         <div class="work-entry-hover">
                             <div class="work-entry-content">
-                                <div class="work-entry-title">{{ img.title }}</div>
+                                <div class="work-entry-title"><h1>{{ img.title }}</h1></div>
                                 <div class="work-entry-cat">{{ img.description }}</div>
                             </div>
                         </div>

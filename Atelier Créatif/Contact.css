@@ -1,0 +1,209 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+header {
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    color: #333;
+    background-color: #333;
+    padding: 50px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-list li {
+    margin: 0 15px;
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: background-color 0.3s ease ;
+}
+
+.nav-list a:hover {
+    background-color: #2c3e50;
+    color: black;
+}
+
+
+.Contact {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Contact h1 {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.Contact p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form form {
+    width: 100%;
+}
+
+.contact-form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #d4a373;
+}
+
+
+.social {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.social h2 {
+    margin-bottom: 10px;
+}
+
+.social p {
+    margin-bottom: 10px;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social li {
+    margin: 0;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #d4a373;
+    
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+footer strong {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #555; /* Couleur lors du survol */
+}
+
+footer a[href*="facebook"] {
+    color: #4267B2; /* Couleur Facebook */
+}
+
+footer a[href*="wa.me"] {
+    color: #25D366; /* Couleur WhatsApp */
+}
+
+footer a[href*="mailto"] {
+    color: #000; /* Couleur email */
+}
+
+footer p {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #666;
+}
+
